@@ -81,7 +81,6 @@ DINOv2 cung cấp biểu diễn đặc trưng mạnh mẽ hơn, ít phụ thuộ
 - Baseline (ALPNet): Vẫn có nhiều nhiễu xung quanh khối u, đường biên chưa mịn
 - DINO-ALPNet: Kết quả ổn định hơn, loại bỏ hầu hết nhiễu nền, biên khối u khớp chính xác hơn
 
-![Segmentation Results Comparison](./images/segmentation_results.jpg)
 *Hình 1: So sánh kết quả phân vùng - (a) Ảnh gốc, (b) Nhãn thật, (c) ALPNet (Baseline), (d) DINO-ALPNet (Cải tiến)*
 
 ---
@@ -96,7 +95,6 @@ DINOv2 cung cấp biểu diễn đặc trưng mạnh mẽ hơn, ít phụ thuộ
   - Khối u tăng quang (Enhancing tumor)
 - Tiền xử lý: Chuẩn hóa cường độ, cắt về 224x224
 
-![BraTS 2023 Dataset Examples](./images/dataset_samples.jpg)
 *Hình 2: Các mẫu dữ liệu từ BraTS 2023 - ảnh MRI đa phương thức với các ca bệnh có u não (Tumor) và không có u não (No Tumor)*
 
 ---
