@@ -78,15 +78,23 @@ Mô hình kết hợp hai thành phần chính:
 - **Baseline (ALPNet)**: Vẫn có nhiều nhiễu xung quanh khối u, đường biên chưa mịn
 - **DINO-ALPNet**: Kết quả ổn định hơn, loại bỏ hầu hết nhiễu nền, biên khối u khớp chính xác hơn
 
----
+### Kết Quả So Sánh
+![Segmentation Results Comparison](./images/segmentation_results.jpg)
+*Hình 2: So sánh kết quả phân vùng trên một ca bệnh - (a) Ảnh gốc, (b) Nhãn thật, (c) Kết quả ALPNet (Baseline), (d) Kết quả DINO-ALPNet (Cải tiến)*
 
 ## 📈 Tập Dữ Liệu
+
+### BraTS 2023 (Brain Tumor Segmentation Challenge)
 - **Chuỗi xung MRI**: T1, T1ce (contrast-enhanced), T2, FLAIR
 - **Nhiệm vụ**: Phân vùng 3 vùng bệnh lý
   - Lõi u hoại tử (Necrotic core)
   - Vùng phù nề (Edema)
   - Khối u tăng quang (Enhancing tumor)
 - **Tiền xử lý**: Chuẩn hóa cường độ, cắt về 224×224
+
+### Ví Dụ Dữ Liệu
+![BraTS 2023 Dataset Examples](./images/dataset_samples.jpg)
+*Hình 1: Các mẫu dữ liệu từ BraTS 2023 - ảnh MRI đa phương thức với các ca bệnh có u não (Tumor) và không có u não (No Tumor)*
 
 ---
 
