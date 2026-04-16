@@ -29,6 +29,7 @@ MANIFEST
 *exps*
 *test*/
 data/
+!data/*.ipynb
 pretrained_model/
 runs/
 debug/
@@ -38,8 +39,6 @@ launch.json
 *.vscode
 *.coda-workspace*
 
-*.jpg
-*.jpeg
 *.pth
 *.txt
 # PyInstaller
@@ -89,12 +88,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
 
 # pyenv
 .python-version
