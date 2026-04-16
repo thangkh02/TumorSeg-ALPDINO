@@ -37,7 +37,7 @@ launch.json
 *.gif
 *.vscode
 *.coda-workspace*
-*.png
+
 *.jpg
 *.jpeg
 *.pth
