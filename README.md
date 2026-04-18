@@ -5,8 +5,7 @@
 ## BÁO CÁO CHI TIẾT
 
 Xem báo cáo toàn diện tại đây: [Báo cáo.pdf](./Báo%20cáo.pdf)
-
-Báo cáo tiểu luận "Phương Pháp Luận Nghiên Cứu Khoa Học" (2025)  
+Phương Pháp Luận Nghiên Cứu Khoa Học (2025)  
 Tác Giả: Phạm Ngọc Thắng | Hướng Dẫn: TS. Từ Thảo Hương Giang
 
 ---
